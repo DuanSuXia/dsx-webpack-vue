@@ -1,0 +1,27 @@
+$topWidth:100%;
+$topHeight:10%;
+
+$contentWidth:100%;
+$contentHeight:90%;
+$centerTHeight:15%;
+$centerCHeight:60%;
+$centerBHeight:25%;
+
+$fWidth:33.3333%;
+$fHeight:100%;
+
+$width:100%;
+$height:33.3333%;
+
+$rightTopHeight:23.3333%;
+$rightCenterHeight:43.3333%;
+$rightBottomHeight:33.3333%;
+
+@mixin flex($dir,$space,$center,$wrap){
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:$dir;
+  justify-content: $space;
+  align-items: $center;
+  flex-wrap: $wrap;
+}

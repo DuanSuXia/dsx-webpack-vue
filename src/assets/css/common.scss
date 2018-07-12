@@ -1,0 +1,73 @@
+/*通用样式*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, table, th, td {
+  font-style: normal;
+  font-weight: normal;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul, ol, li {
+  list-style-type: none;
+}
+
+fieldset, img {
+  border: medium none;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+input, button, select, textarea {
+  outline: none
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.phcolor {
+  color: #999;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
